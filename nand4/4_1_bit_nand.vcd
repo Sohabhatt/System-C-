@@ -1,0 +1,53 @@
+$date
+     Jul 12, 2025       11:47:53
+$end
+
+$version
+ SystemC 2.3.3-Accellera --- Mar 22 2020 15:59:11
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  nand4_in0       $end
+$var wire    1  aaaab  nand4_in1       $end
+$var wire    1  aaaac  nand4_in2       $end
+$var wire    1  aaaad  nand4_in3       $end
+$var wire    1  aaaae  nand4_out       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaaaa
+1aaaab
+0aaaac
+1aaaad
+0aaaae
+$end
+
+#1
+0aaaaa
+1aaaac
+
+#2
+1aaaaa
+0aaaac
+0aaaad
+
+#3
+0aaaaa
+0aaaab
+
+#4
+1aaaaa
+1aaaab
+1aaaac
+1aaaad
+
+#5
