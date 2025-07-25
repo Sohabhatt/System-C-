@@ -1,4 +1,4 @@
-# 🧠 SystemC Design Repository
+#  SystemC Design Repository
 
 This repository contains a collection of hardware design modules implemented using **SystemC**, a C++-based modeling language for system-level digital design and simulation.
 
