@@ -7,7 +7,6 @@ int sc_main(int argc,char* argv[])
 sc_trace_file *fp = sc_create_vcd_trace_file("full_adder");
  fp -> set_time_unit(1.0, SC_NS);
 
-  
   full_adder DUT("DUT");
   DUT.a(in0);
   DUT.b(in1);
@@ -33,5 +32,6 @@ sc_trace_file *fp = sc_create_vcd_trace_file("full_adder");
   cout<<"@ "<<sc_time_stamp()<<" a = "<<in0.read()<<" b = "<<in1.read()<<" c = "<<in2.read()<<" result = "<<s.read()<<cout.read()<<endl;
   
   sc_stop();
+  sc_close_vcd_trace_file(fp);
   return 0;
 }
