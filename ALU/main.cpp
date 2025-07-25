@@ -30,6 +30,7 @@ int sc_main (int argc, char* argv[]) {
   cout << "OPCODE: "<< i << "A: "<<sig_a.read() <<"B: "<<sig_b.read() << "Result: "<<sig_result.read() << endl;
   
   }
- 
+ sc_stop();
+ sc_close_vcd_trace_file(fp);
  return 0;
  } 
