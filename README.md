@@ -3,9 +3,9 @@
 This repository contains a collection of hardware design modules implemented using **SystemC**, a C++-based modeling language for system-level digital design and simulation.
 
 All designs in this repository are:
-- ✅ Written in SystemC  
-- 🛠️ Simulated using the SystemC compiler &  
-- 📈 Waveforms visualized using GTKWave
+- Written in SystemC  
+- Simulated using the SystemC compiler &  
+- Waveforms visualized using GTKWave
 
 ---
 
